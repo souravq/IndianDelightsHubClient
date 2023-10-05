@@ -1,0 +1,8 @@
+.homeDiv{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.footerDiv{
+    margin-top: auto;
+}
