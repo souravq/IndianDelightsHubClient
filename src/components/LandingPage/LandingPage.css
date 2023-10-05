@@ -1,0 +1,16 @@
+.LandingPageBanner{
+    margin-top: 30px;
+    display: flex;
+}
+.leftSide{
+    padding-top: 70px;
+}
+.chefCardDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.chefCardComponent{
+    flex: 1 0 40%;
+}
