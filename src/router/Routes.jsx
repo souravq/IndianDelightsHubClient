@@ -17,7 +17,7 @@ const router = createBrowserRouter([
         children:[
             {
                 path:"/",
-                loader: ()=>fetch('http://localhost:5000/chef'),
+                loader: ()=>fetch('https://indian-delights-hub-server-i27qa22ga-souravq.vercel.app/chef'),
                 element:<LandingPage/>,
                 errorElement: <ErrorPage />,
             },
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
             },
             {
                 path:"/chef/:id",
-                loader: ({params})=>fetch(`http://localhost:5000/chef/${params.id}`),
+                loader: ({params})=>fetch(`https://indian-delights-hub-server-i27qa22ga-souravq.vercel.app/chef/${params.id}`),
                 element:<ChefDetails/>,
                 errorElement: <ErrorPage />,
             },

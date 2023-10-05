@@ -1,8 +1,65 @@
-# React + Vite
+Indian Delights Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live URL - https://indiandelightshub.web.app/
 
-Currently, two official plugins are available:
+Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Indian Delights Hub is a web application dedicated to showcasing the rich and diverse cuisine of India. It provides a platform for chefs to share their authentic recipes, allowing users to explore and enjoy the flavors of Indian cooking.
+
+Features
+Dynamic UI: Built with React and MUI for a responsive and engaging user interface.
+Mapping Magic: Utilizes Leaflet for an interactive map to explore regional cuisines.
+Data Management: Integrates Firebase for efficient data storage and retrieval.
+Lazy Loading: Enhances performance with lazy loading of images using react-lazy-load-image-component.
+Routing Superpowers: Leverages react-router-dom for seamless and intuitive navigation.
+Tech Stack
+React Ecosystem: Developed with React 18, React DOM, and various supporting libraries.
+Styles: Combines Tailwind CSS and Emotion for a modern and visually appealing design.
+Bootstrap Goodies: Utilizes Bootstrap and React Bootstrap components for additional styling.
+Development Tools: Employs Vite for a fast and efficient development environment.
+Linting Excellence: Enforces code quality with ESLint, ensuring clean and maintainable code.
+How to Use
+
+Clone the Repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/indiandelightshub.git
+
+
+Install Dependencies:
+
+bash
+Copy code
+cd indiandelightshub
+npm install
+
+
+Run Development Server:
+
+bash
+Copy code
+npm run dev
+
+
+Build for Production:
+
+bash
+Copy code
+npm run build
+
+
+Linting Checks:
+
+bash
+Copy code
+npm run lint
+
+
+Preview Build:
+
+bash
+Copy code
+npm run preview
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
