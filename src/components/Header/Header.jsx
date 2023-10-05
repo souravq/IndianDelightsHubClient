@@ -4,6 +4,8 @@ import "./Header.css";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 
+import logo from "../../assets/logo-no-background.png"
+
 function Header() {
   const { user, userId, LogOut } = useContext(AuthContext);
 
@@ -92,7 +94,7 @@ function Header() {
               </ul>
             </div>
             <Link className="btn btn-ghost normal-case text-xl" to="/">
-              INDIANDELIGHTSHUB
+              <img src={logo} width="200px" style={{height:"100%"}}/>
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
