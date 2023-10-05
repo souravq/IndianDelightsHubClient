@@ -86,7 +86,7 @@ function Header() {
                     isActive ? "active" : isPending ? "pending" : ""
                   }
                 >
-                  Contact Us
+                  About Us
                 </NavLink>
               </li>
               </ul>
@@ -134,7 +134,7 @@ function Header() {
                     isActive ? "active" : isPending ? "pending" : ""
                   }
                 >
-                  Contact Us
+                  About Us
                 </NavLink>
               </li>
             </ul>
